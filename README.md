@@ -10,8 +10,8 @@
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Recipe Page](https://your-solution-url.com)
+- Live Site URL: [Recipe Page]( https://arnavankush30.github.io/Recipe-Page/)
 
 ## My process
 
