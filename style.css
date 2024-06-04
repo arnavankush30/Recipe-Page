@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+--White: hsl(0, 0%, 100%)
+--Rose White: hsl(330, 100%, 98%)
+--Eggshell: hsl(30, 54%, 90%)
+--Light Grey: hsl(30, 18%, 87%)
+--Wenge Brown: hsl(30, 10%, 34%)
+--Dark Charcoal: hsl(24, 5%, 18%)
+--Nutmeg: hsl(14, 45%, 36%)
+--Dark Raspberry: hsl(332, 51%, 32%)
+
+}
+body{
+    background-color: hsl(30, 54%, 90%);
+    color: hsl(30, 10%, 34%);
+    min-height: 100vh;
+    font-family: 'Outfit', sans-serif;
+    line-height: 1.4;
+    display: grid;
+    place-content: center;
+    
+
+}
+
+img{
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+    
+}
+
+h1 {
+    font-family: 'Young Serif', serif;
+    font-weight: 400;
+    color: hsl(24, 5%, 18%);
+    font-size: 3rem;
+}
+
+h2{
+    font-family: 'Young Serif', serif;
+    font-weight: 400;
+    color: hsl(14, 45%, 36%);
+    font-size: xx-large;
+    margin-bottom: 1rem;
+}
+
+.recipe-info{
+    margin: 1rem 0;
+}
+
+.nutrition{
+    margin-top: 1rem;
+}
+
+ul{
+    padding-left: 1.25rem;
+}
+
+ol{
+    padding-left: 1.25rem;
+}
+
+li::marker{
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+
+hr{
+    margin: 1.5rem 0;
+    border: 1px solid hsl(30, 18%, 87%);
+}
+
+.container{
+    max-width: 800px;
+    padding: 1.25rem;
+    background-color: hsl(0, 0%, 100%);
+    margin: 2rem;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.recipe-info{
+    padding: 0 2rem 2rem 2rem;
+}
+
+.description{
+    margin: 1.5rem 0;
+}
+.preparation-time h3{
+    margin: 0.75rem;
+    color:hsl(332, 51%, 32%) ;
+}
+
+.preparation-time{
+    padding: 1.25rem;
+    margin-bottom: 1rem;
+    border: 1rem;
+    border-radius: 1rem;
+    font-size: small;
+    background-color: hsl(330, 100%, 98%);
+
+}
+
+.description ul li::marker{
+    color: hsl(332, 51%, 32%);
+}
+
+.ingredients{
+    margin-bottom: 0.5rem;
+}
+
+ol li::marker{
+    font-weight: 700;
+}
+
+.nurtrition-description{
+    margin-bottom: 1rem;
+}
+
+
+
+.nutriton-name {
+    width: 50%;
+    margin-left: 1em;
+  }
+  
+  .nutriton {
+    grid-column: 2;
+    width: 50%;
+    font-weight: 700;
+    padding: 0.5em;
+    display: flex;
+    align-items: center;
+  }
+  
+  .nutriton > span {
+    color: hsl(14, 45%, 36%);
+  }
+
+  .nutriton-container{
+    display: grid;
+  }
+
+
+  @media screen and (max-width: 700px) {
+    .recipe-page-section {
+      margin: 0;
+    }
+  
+    .recipe-info {
+      width: 100%;
+    }
+  
+    img {
+      width: 100%;
+    }
+  }
+
+  .attribution{
+    font-size: 13px;
+    text-align: center;
+    margin-bottom: 5rem;
+  }
+
+  .attribution a{
+    color: hsl(228, 45%, 48%);
+  }
